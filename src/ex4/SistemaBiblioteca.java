@@ -3,9 +3,6 @@ package ex4;
 import java.util.ArrayList;
 import java.util.List;
 
-//Os principais problemas da separação de resposabilidade é a duplicação de código, que deve ocorrer nas duas variáveis para que não ocorra um erro,
-// e a complexidade e cuidado desnecessario a mais que a aplicação vai ter por não possuir uma classe que agrupe essas variaveis
-
 public class SistemaBiblioteca {
     private List<Livro> livros;
 
@@ -39,3 +36,5 @@ public class SistemaBiblioteca {
         System.out.println("Livro " + titulo + " não encontrado.");
     }
 }
+//Os principais problemas da separação de resposabilidade é a duplicação de código, que deve ocorrer nas duas variáveis para que não ocorra um erro,
+// e a complexidade e cuidado desnecessario a mais que a aplicação vai ter por não possuir uma classe que agrupe essas variaveis
